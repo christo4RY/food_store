@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap");
+
+:root{
+    --box-shadow : 0px 8px 22px #c2c2c2;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar .navbar-brand i{
+    font-size: 42px;
+}
+
+.navbar .container .btns .btn i{
+    font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #E84393;
+}
+
+.store{
+    height: 440px;
+}
+@media (max-width:600px) {
+    .store{
+        height: 200px;
+    }
+}
+.bg-color {
+    background-color: rgb(255, 237, 246);
+}
+
+.fw-bold {
+    font-size: 45px;
+}
+
+.service .btn{
+    background-color: #E84393;
+    color: #fff;
+}
+
+.service .btn:hover{
+    background-color: transparent;
+    color: #E84393;
+    border: 1px solid #E84393;
+}
+
+#product h2{
+    color: #E84393;
+    font-weight: 700;
+}
+
+.wrap{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+#register h2{
+    color: #E84393;
+    font-weight: 700;
+}
+
+#register .row{
+    width: 500px;
+}
+
+#login .row{
+    height: 470px;
+    align-items: center;
+}
+
+#login h2{
+    color: #E84393;
+    font-weight: 700;
+}
+
+#contact h5{
+    color: #E84393;
+    font-weight: 700;
+}
+
+.main-map {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.main-map iframe{
+    width: 100%;
+}
+
+.contact .form-control {
+    height: 50px;
+    border: transparent;
+    background-color: rgba(216, 216, 216, 0.897);
+}
+
+.contact input {
+    height: 50px;
+    background-color: #E84393;
+    color: #E84393;
+    transition: all 0.4s ease;
+}
+
+.contact input:hover {
+    background-color: transparent;
+    border: 3px solid #E84393;
+}
+
+.contact textarea {
+    height: 80px !important;
+}
+
+footer h3,h5{
+     color: #E84393;
+}
+
+footer p{
+    color: #888888;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer a:hover{
+    color: #E84393;
+    font-size: 18px;
+}
+
+.footer i {
+    color: #E84393;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon {
+    color: #E84393;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.i i{
+    font-size: 30px;
+}
